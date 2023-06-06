@@ -24,7 +24,7 @@ if __name__ == "__main__":
 		print("Usage: ./rc4.py <key> <filename>")
 		exit(0)
 		
-	key = sys.argv[v]
+	key = sys.argv[1]
 	filename = sys.argv[2]
 	
 	with open(filename, 'rb') as f:
